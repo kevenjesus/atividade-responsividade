@@ -44,10 +44,4 @@
 		width: 1200px;
 		margin: 0 auto;	
 	}
-
-	@for $i from 1 through $quantidade-colunas-grid-layout {
-		.col-#{$i} {
-			width: $i/$quantidade-colunas-grid-layout*100%;
-		}
-	}
 }
